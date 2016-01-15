@@ -4,11 +4,11 @@
     "unused": false,
     "undef": false,
     "esnext": true,
-    "predef": [
-        "PATH",
-        "injector",
-        "log",
-        "q",
-        "_"
-    ]
+    "globals": {
+        "_": true,
+        "PATH": true,
+        "q": true,
+        "injector": true,
+        "log": true
+    }
 }
