@@ -4,8 +4,9 @@ var API         = require('bool.js/api')
 ,   nodemailer  = require('nodemailer');
 
 module.exports = new API.Middleware('booljs-mailer', {
-    action: function (_instance, router, route) {
-        var configuration   = _instance.configuration.get('mail')
+    action: function (_instance) {
+        var app             = _instance.getComponents()
+        ,   configuration   = app.configuration.get('mail')
         ,   transporterOpts = configuration.options;
 
         var mail = nodemailer.createTransport(transporterOpts);
