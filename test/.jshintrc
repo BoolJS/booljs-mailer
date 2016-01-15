@@ -12,7 +12,7 @@
         "log": true
     },
     "predef": [
-        "describe", "it"
+        "describe", "it",
         "before", "beforeEach",
         "after", "afterEach"
     ]
