@@ -1,0 +1,41 @@
+{
+  "name": "booljs-mailer",
+  "version": "0.0.1",
+  "description": "Middleware to allow developers send mails in their APIs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booljs/booljs-mailer.git"
+  },
+  "keywords": [
+    "booljs",
+    "mailer",
+    "nodemailer",
+    "api",
+    "middleware"
+  ],
+  "author": {
+    "name": "Pablo Andrés Dorado Suárez",
+    "mail": "pandres95@booljs.co"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/booljs/booljs-mailer/issues"
+  },
+  "homepage": "https://github.com/booljs/booljs-mailer#readme",
+  "dependencies": {
+    "nodemailer": "^2.0.0"
+  },
+  "peerDependencies": {
+    "bool.js": ">=0.4.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
+}
