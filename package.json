@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/booljs/booljs-mailer.git"
   },
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive --timeout 5000 test"
+  },
   "keywords": [
     "booljs",
     "mailer",
