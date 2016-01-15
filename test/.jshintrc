@@ -1,0 +1,19 @@
+{
+    "node": true,
+    "laxcomma": true,
+    "unused": false,
+    "undef": false,
+    "esnext": true,
+    "globals": {
+        "_": true,
+        "PATH": true,
+        "q": true,
+        "injector": true,
+        "log": true
+    },
+    "predef": [
+        "describe", "it"
+        "before", "beforeEach",
+        "after", "afterEach"
+    ]
+}
