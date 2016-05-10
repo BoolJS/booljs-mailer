@@ -1,6 +1,6 @@
 {
   "name": "booljs-mailer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Middleware to allow developers send mails in their APIs",
   "main": "index.js",
   "repository": {
