@@ -22,7 +22,8 @@
     "mail": "pandres95@booljs.co"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=4.0.0",
+    "npm": ">=3.0.0"
   },
   "license": "GPL-3.0",
   "bugs": {
@@ -33,7 +34,7 @@
     "nodemailer": "^2.0.0"
   },
   "peerDependencies": {
-    "bool.js": ">=0.4.3"
+    "booljs-api": "^0.3.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",

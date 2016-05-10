@@ -3,8 +3,12 @@
 var API         = require('bool.js/api')
 ,   nodemailer  = require('nodemailer');
 
-module.exports = new API.Middleware('booljs-mailer', {
-    action: function (_instance) {
+module.exports = class BoolJSMailer extends API.Middleware {
+    constructor() {
+        super('booljs-mailer');
+    }
+
+    action(_instance) {
         var app             = _instance.getComponents()
         ,   configuration   = app.configuration.get('mail')
         ,   transporterOpts = configuration.options;
@@ -15,4 +19,4 @@ module.exports = new API.Middleware('booljs-mailer', {
             next();
         };
     }
-});
+};
